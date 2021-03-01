@@ -1,0 +1,28 @@
+{
+    "name": "Book/Contact",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasib",
+            "email": "Hasib@gmail.com"
+        }
+    ],
+    "require": {
+        "bagisto/laravel-core": "dev-master",
+        "bagisto/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Book\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Book\\Contact\\Providers\\ContactServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
