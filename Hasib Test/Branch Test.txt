@@ -1,3 +1,0 @@
-Hasib give a req from branch
-this is called pull request 
-we can both in master and branch   
